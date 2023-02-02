@@ -1,8 +1,3 @@
-/**
-*   Glitche (HTML)
-*   Copyright © Glitche by beshleyua. All Rights Reserved.
-**/
-
 $(function () {
 	'use strict';
 	
@@ -21,7 +16,7 @@ $(function () {
 	
 	/* Preloader */
 	$(window).load(function() {
-		$(".preloader .pre-inner").fadeOut(800, function(){
+		$(".preloader .pre-inner").fadeOut(1500, function(){ //typing time
 			/* Preload hide */
 			$('.preloader').fadeOut();
 			$('body').addClass('loaded');
